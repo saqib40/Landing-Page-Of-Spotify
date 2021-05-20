@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.DropDown1 {
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Lexend Exa', sans-serif;
+}
+
+.DropDown1:hover {
+  color: #1ED760;
+}
+
+.content {
+    list-style-type: none;
+    background-color: black;
+    width: 100vw;
+  display: none;
+  }
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Lexend Exa', sans-serif;
+    box-sizing: border-box;
+  }
+
+  li a:hover {
+    color: #1ED760;
+  }
+
+.show {display:block;}
+
+@media (min-width: 31em) {
+  
+  .DropDown1 {
+    display: none;
+  }
+  
+    .content {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+      }
+      
+      .gandu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+  
+      li a:hover {
+        color: #1ED760;
+      }
+}
+
+nav {
+  background-color: black;
+}
+
+.a {
+  height: 100vh;
+  background-color: rgb(41, 65, 171);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.a h1 {
+  color: #1ED760;
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  text-align: center;
+}
+.a p {
+ color: #1ED760;
+ font-family: 'Lexend Exa', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+.a a {
+  display: block;
+  box-sizing: border-box;
+  min-width: 300px;
+  width: 189px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Lexend Exa', sans-serif;
+  padding: 10px;
+  background-color: #04AA6D;
+  text-align: center;
+  border-radius: 500px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.a a:hover {
+  transform: scale(1.05, 1.05);
+}
+@media (max-width: 31em) {
+  .a h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 22.1875em) {
+  .a h1 {
+    font-size: 30px;
+  }
+}
+
+.b {
+  height: auto;
+  background-color: black;
+  box-sizing: border-box;
+  border: 0.01px solid black;
+}
+.yeah {
+  display: block;
+    list-style-type: none;
+  }
+.yeah div {
+  color: gray;
+  font-family: 'Lexend Exa', sans-serif;
+  box-sizing: border-box;
+  padding-left: 14px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-weight: 800;
+}
+.yeah2 a {
+  display: block;
+    color: white;
+    padding: 14px 14px;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Lexend Exa', sans-serif;
+    box-sizing: border-box;
+  font-weight: 800;
+}
+.yeah2 a:hover {
+  color: #1ED760;
+}
+@media (min-width: 48.125em) {
+  .b {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.c {
+  height: auto;
+  background-color: black;
+  border: 0.01px solid black;
+}
+.cA {
+  margin-top: 100px;
+  margin-left: 14px;
+}
+.c a {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 10px;
+  padding: 5px;
+}
+.c a:hover {
+  color: #1ED760;
+}
