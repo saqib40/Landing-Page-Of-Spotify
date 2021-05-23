@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -145,8 +145,8 @@ nav {
 }
 .spotify-icon__link span{
   margin: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  font-family: 'Kanit', sans-serif;
   font-size: larger;
 }
 .spotify-icon__link img{
